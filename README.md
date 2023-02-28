@@ -10,7 +10,10 @@
   </a>
 
   <p align="center">
-   Link Sharing & Archiving for Collaboration
+   <i>for Collaboration</i>
+  </p>
+  <p align="center">
+    <b> 크롬 익스텐션을 통해 브라우저에서 텍스트/이미지/동영상을 하이라이팅하고, 공유 및 아카이빙 할 수 있는 그룹 협업 툴</b>
   </p>
 </div>
 
@@ -29,17 +32,20 @@
 
 ## 프로젝트 개요
 
-프로젝트 기간 : 2022.12.23 ~ 2023.01.27
+프로젝트 기간 : 2022.12.23 ~ 2023.01.27 (5주)
 
 팀원 : 5
 
-팀원 소개 이미지 들어가야 함
+![image](https://user-images.githubusercontent.com/101175828/218977582-a2bea9ae-d4f8-485d-b9b8-98dfc61bf323.png)
+
 
 서비스 사용 설명서 : [바로가기](https://zircon-kale-103.notion.site/Highlighters-b7074bda3ec542e7bd4002babca6e5fc)
 
 웹사이트 : [바로가기](https://highlighters.site/)
 
 발표영상 : [바로가기](https://www.youtube.com/watch?v=1hC4BrA4MJI)
+
+크롬 익스텐션 스토어 : [바로가기](https://chrome.google.com/webstore/detail/highlighters/hcagahefhiieeemlfjfhbnhnaedcpdai?hl=ko)
 
 <p align="right">(<a href="#readme-top">맨 위로</a>)</p>
 
@@ -116,9 +122,9 @@
 
 #### 7. 피드 아카이빙
 
-- 피드를 태그 별로 모아볼 수 있습니다.
-- 날짜 별로 피드를 모아볼 수 있습니다.
-- 즐겨찾기를 해 둔 피드를 모아볼 수 있습니다.
+- **태그 별**로 피드를 모아볼 수 있습니다.
+- **날짜 별**로 피드를 모아볼 수 있습니다.
+- **즐겨찾기**를 해 둔 피드를 모아볼 수 있습니다.
     <table border="0" >
     <tr>
         <td>    <img src="https://user-images.githubusercontent.com/101175828/216554937-47c37f6d-5eb7-4285-86f4-ab150506d98b.png"></img></td>
@@ -138,15 +144,16 @@
 
 - 피드에 댓글을 달 수 있습니다.
    <div>
-    <img height="400" width="500"src="https://user-images.githubusercontent.com/101175828/216555375-3e1b4e7c-75fb-45c0-aad3-832f9fee1806.png"> </img>
+    <img height="300" width="500"src="https://user-images.githubusercontent.com/101175828/216555375-3e1b4e7c-75fb-45c0-aad3-832f9fee1806.png"> </img>
   </div>
 #### 10. 그리드뷰 보기
   
 - 많은 피드들을 한 눈에 볼 수 있습니다.
    <div>
-    <img src="https://user-images.githubusercontent.com/101175828/216556511-2ff48f42-b4cf-4c13-9d25-f6ba0faec531.gif"> </img>
+    <img src="https://user-images.githubusercontent.com/101175828/217535465-8ea6a78f-2022-4d3a-a10e-a6ec2477c9d3.png"> </img>
   </div>
 <p align="right">(<a href="#readme-top">맨 위로</a>)</p>
+
 
 <!-- 아키텍처 -->
 
@@ -164,7 +171,7 @@
 
 ## 프로젝트 포스터
 
-![image](https://user-images.githubusercontent.com/101175828/215235500-a329f9fd-6251-4e7e-8e96-36a33113678f.png)
+![image](https://user-images.githubusercontent.com/109822768/219306111-d702e6cd-c619-45ef-9aa5-a850e5e0158b.png)
 
 <p align="right">(<a href="#readme-top">맨 위로</a>)</p>
 
