@@ -19,7 +19,7 @@ import {
   currentFeedState,
   tagModalVisble,
   commentReloadState,
-} from "../../../states/atom";
+} from "../../../atoms/atom";
 import { useRecoilValue, useSetRecoilState } from "recoil";
 import { Bookmarked } from "../../Bookmarks/BookmarkItem/Bookmarked";
 import { UnBookmarked } from "../../Bookmarks/BookmarkItem/UnBookmarked";
@@ -129,7 +129,7 @@ const FeedItem = (props: any) => {
           case 3: // 동영상 하이라이트
             return (
               <>
-                <div ></div>
+                <div></div>
                 <div className="inline-flex ml-1 mr-1" key={index}>
                   <li key={index}>
                     <div className="flex flex-row mt-2">
@@ -246,7 +246,7 @@ const FeedItem = (props: any) => {
     setIsBookmarked(!isBookmarked);
   };
   // 댓글 수 콜백
-  const commentCountCallback = (action: any) => {
+  const commentCountCallback = (action: string) => {
     if (action === "add") {
       setCommentLen(commentLen + 1);
     } else if (action === "del") {

@@ -1,15 +1,8 @@
-import FeedItem from "../Feeds/FeedItem/FeedItem";
 import { useRecoilState, useRecoilValue } from "recoil";
 import {
-  feedsTagListState,
   clickedGroupTagDelState,
-  GroupTagListState,
-} from "../../states/atom";
-import { useCookies } from "react-cookie";
+} from "../../atoms/atom";
 import React, { useEffect, useState, Suspense, lazy } from "react";
-import axios from "axios";
-import { TagItem } from "../Tags/TagItem/TagItem";
-import { useQuery } from "react-query";
 import { ArchiveBoxXMarkIcon } from "@heroicons/react/24/outline";
 import GroupTagSkeleton from "../UI/GroupTagSkeleton";
 // import  GroupTagList from "./GroupTagList";
@@ -19,7 +12,7 @@ const GroupTagList = lazy(() => import("./GroupTagList"));
 const GroupTagListEdit = lazy(() => import("./GroupTagListEdit"));
 
 const GroupTag = (props: any) => {
-  const [testDel, setTestDel] = useRecoilState(GroupTagListState);
+  // const [testDel, setTestDel] = useRecoilState(GroupTagListState);
 
   const [clickedGroupTagDel, setclickedGroupTagDel] = useRecoilState(
     clickedGroupTagDelState
@@ -38,7 +31,7 @@ const GroupTag = (props: any) => {
       }
       style={{
         // height: "35vh"
-        maxHeight: "35vh"
+        maxHeight: "35vh",
       }}
     >
       <div className="mx-6 mt-5 mb-2">

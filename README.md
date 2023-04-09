@@ -1,4 +1,4 @@
-# Highlighters
+# Highlighters [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FSY-Highlighters%2FHighlighters%2Ftree%2Fdevelop&count_bg=%233DB4C8&title_bg=%23555555&icon=krita.svg&icon_color=%23E7E7E7&title=Highlighters&edge_flat=false)](https://hits.seeyoufarm.com)
 
 <a name="readme-top"></a>
 
@@ -34,18 +34,31 @@
 
 프로젝트 기간 : 2022.12.23 ~ 2023.01.27 (5주)
 
-팀원 : 5
+기술 스택 :
+
+| 분류                      | 기술                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+| ------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Frontend**              | <img src="https://img.shields.io/badge/react-61DAFB?style=for-the-badge&logo=react&logoColor=black"> <img src="https://img.shields.io/badge/react--query-FF4154?style=for-the-badge&logo=reactquery&logoColor=white"> <img src="https://img.shields.io/badge/recoil-362d59?style=for-the-badge&logo=recoil&logoColor=white"> <img src="https://img.shields.io/badge/tailwindcss-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white"> |
+| **Extension**             | <img src="https://img.shields.io/badge/Extension Manifest v3-4285F4?style=for-the-badge&logo=googlechrome&logoColor=white"> <img src="https://img.shields.io/badge/react-61DAFB?style=for-the-badge&logo=react&logoColor=black"> <img src="https://img.shields.io/badge/recoil-362d59?style=for-the-badge&logo=recoil&logoColor=white">                                                                                                        |
+| **Backend**               | <img src="https://img.shields.io/badge/nestjs-E0234E?style=for-the-badge&logo=nestjs&logoColor=white">                                                                                                                                                                                                                                                                                                                                         |
+| **Database**              | <img src="https://img.shields.io/badge/mysql-4479A1?style=for-the-badge&logo=mysql&logoColor=white"> <img src="https://img.shields.io/badge/elasticsearch-005571?style=for-the-badge&logo=elasticsearch&logoColor=white"> <img src="https://img.shields.io/badge/redis-DC382D?style=for-the-badge&logo=redis&logoColor=white">                                                                                                                 |
+| **Infrastructure/DevOps** | <img src="https://img.shields.io/badge/docker-2496ED?style=for-the-badge&logo=docker&logoColor=white"> <img src="https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white"> <img src="https://img.shields.io/badge/aws_lambda-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white"> <img src="https://img.shields.io/badge/aws_s3-569A31?style=for-the-badge&logo=amazonaws&logoColor=white">            |
+
+팀원 : 5 (FE 2, BE 3)
 
 ![image](https://user-images.githubusercontent.com/101175828/218977582-a2bea9ae-d4f8-485d-b9b8-98dfc61bf323.png)
 
-
-서비스 사용 설명서 : [바로가기](https://zircon-kale-103.notion.site/Highlighters-b7074bda3ec542e7bd4002babca6e5fc)
+서비스 사용 설명서 : [바로가기](https://www.notion.so/yeriiin/Highlighters-b7074bda3ec542e7bd4002babca6e5fc)
 
 웹사이트 : [바로가기](https://highlighters.site/)
 
-발표영상 : [바로가기](https://www.youtube.com/watch?v=1hC4BrA4MJI)
+- demo 계정 : test@test.com
+- demo 계정 비밀번호 : 1234
+- 익스텐션을 설치해야 그룹원들의 하이라이팅을 볼 수 있고, 피드를 추가할 수 있으니 아래의 스토어에서 설치 후 이용해주시면 감사하겠습니다.
 
 크롬 익스텐션 스토어 : [바로가기](https://chrome.google.com/webstore/detail/highlighters/hcagahefhiieeemlfjfhbnhnaedcpdai?hl=ko)
+
+발표영상 : [바로가기](https://www.youtube.com/watch?v=1hC4BrA4MJI)
 
 <p align="right">(<a href="#readme-top">맨 위로</a>)</p>
 
@@ -119,7 +132,6 @@
     <img width="400" height="230" src="https://user-images.githubusercontent.com/101175828/216561358-16fb58e4-8401-406f-bdb4-5a42b8dc047b.gif"> </img>
   </div>
 
-
 #### 7. 피드 아카이빙
 
 - **태그 별**로 피드를 모아볼 수 있습니다.
@@ -133,6 +145,7 @@
    </tr>
 
   </table>
+
 #### 8. 피드 검색
 
 - 오타가 있어도 의도한 검색결과를 제공해줍니다. (과금 문제로 현재는 일반 검색기능만 작동합니다.)
@@ -146,14 +159,14 @@
    <div>
     <img height="300" width="500"src="https://user-images.githubusercontent.com/101175828/216555375-3e1b4e7c-75fb-45c0-aad3-832f9fee1806.png"> </img>
   </div>
+
 #### 10. 그리드뷰 보기
-  
+
 - 많은 피드들을 한 눈에 볼 수 있습니다.
    <div>
     <img src="https://user-images.githubusercontent.com/101175828/217535465-8ea6a78f-2022-4d3a-a10e-a6ec2477c9d3.png"> </img>
   </div>
 <p align="right">(<a href="#readme-top">맨 위로</a>)</p>
-
 
 <!-- 아키텍처 -->
 

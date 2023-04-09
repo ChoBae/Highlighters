@@ -1,14 +1,5 @@
 import { atom } from "recoil";
 
-/* 태그 */
-// 태그 클릭시 해당 태그 Id
-export const clickedTagState = atom<any>({
-  key: "clickedTagState",
-  default: {
-    tag_id: 0,
-    tag_name: "",
-  },
-});
 
 // 피드의 태그 리스트
 export const tagsInFeedState = atom<any>({
@@ -16,11 +7,7 @@ export const tagsInFeedState = atom<any>({
   default: [],
 });
 
-// 그룹의 전체 태그 리스트
-export const tagsInGroupState = atom<any>({
-  key: "tagsInGroupState",
-  default: [],
-});
+
 // 태그 삭제 (그룹 태그 삭제시)
 export const clickedGroupTagDelState = atom<any>({
   key: "clickedGroupTagDelState",
@@ -28,12 +15,12 @@ export const clickedGroupTagDelState = atom<any>({
 });
 /* 피드 */
 //  그룹 피드 리스트
-export const feedsInGroupState = atom<any>({
+export const feedsInGroupState = atom<[]>({
   key: "feedsInGroupState",
   default: [],
 });
 // 태그에 해당하는 피드 리스트 => 버리자
-export const feedsTagListState = atom<any>({
+export const feedsTagListState = atom<[]>({
   key: "feedsTagListState",
   default: [],
 });
@@ -88,16 +75,7 @@ export const mainSectionState = atom<number>({
   default: 0,
 });
 /* 유저 정보 */
-// 유저 정보 state
-export const userInfoState = atom<any>({
-  key: "userInfoState",
-  default: {
-    nickname: "",
-    img: "",
-    groupName: "",
-    groupId: "",
-  },
-});
+
 
 export const currentFeedState = atom<{ feed_id: number; feed_title: string }>({
   key: "currentFeedState",
